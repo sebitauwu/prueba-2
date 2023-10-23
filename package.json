@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@capacitor/android": "^5.5.0",
+    "@ionic/cli": "^7.1.1"
+  }
+}

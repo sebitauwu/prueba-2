@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item>
+    <ion-label position="floating" >Rut</ion-label>
+    <ion-input placeholder="Ingrese su rut"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating" >Contraseña</ion-label>
+    <ion-input placeholder="Ingrese su contraseña"></ion-input>
+  </ion-item>
+
+
+  <ion-button shape="block" [routerLink]="['/home']">Ingresar</ion-button>
+  <ion-button shape="block">  Registrate  </ion-button>
+  <ion-button shape="block" [routerLink]="['/olvidaste']" >olvidaste tu contraseña</ion-button>
+  <img [src]="image" *ngIf="image">
+  
+</ion-content>
